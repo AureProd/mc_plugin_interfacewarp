@@ -1,0 +1,22 @@
+
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+name: Interface_warps_plugin
+version: 1.0
+author: AureProd
+main: fr.aureprod.interfacewarp.Main
+api-version: 1.13
+commands:
+  hudwarp:
+    description: §6Ceci est la commande pour afficher l'interface
+    permission: interfacewarp.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+permissions:
+  interfacewarp.use:
+    default: op
+    description: §2Autorise utilisation des commandes liees au warp
